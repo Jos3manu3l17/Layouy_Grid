@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffffff;
+    background-color: #000000;
 }
 
 .grid-container {
@@ -18,7 +18,7 @@ body {
         "nav nav"
         "aside main"
         "footer footer";
-    gap: 10px;
+    gap: 14px;
     min-height: 100vh;
 }
 
@@ -30,7 +30,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.3); 
+    box-shadow:0 4px 10px rgb(30, 255, 0);
 }
 
 header>div>a {
@@ -54,7 +54,7 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 15px;
-    box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.3); 
+    box-shadow:0 4px 10px rgb(30, 255, 0);
     transition: .3s;
 }
 
@@ -72,7 +72,7 @@ main {
 
 aside {
     grid-area: aside;
-    background: #918e8e85;
+    background: #3cff00;
     padding: 20px;
     display: flex;
     color: white;
@@ -86,7 +86,7 @@ aside a {
 }
 
 aside a:hover {
-    color: #3cff00;
+    color: #000000;
 }
 
 footer {
@@ -136,7 +136,7 @@ a {
 }
 
 .imagenes img:hover {
-    box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.3); 
+    box-shadow:0 4px 10px rgb(30, 255, 0);    
     transition: .3s;
     transform: scale(1.05);
 } 
